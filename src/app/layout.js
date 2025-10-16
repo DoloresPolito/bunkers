@@ -3,13 +3,18 @@ import "./globals.css";
 export const metadata = {
   title: "Bunkers",
   description: "",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link
+      <link
           rel="icon"
           type="image/png"
           href="/favicon-96x96.png"

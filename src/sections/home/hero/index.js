@@ -43,11 +43,11 @@ export default function Hero() {
             algo <span>nuevo</span> está llegando.
           </motion.p>
           <button
-  className={styles.button}
-  onClick={() => (window.location.href = "mailto:info@bunkers.ar")}
->
-  info@bunkers.ar
-</button>
+            className={styles.button}
+            onClick={() => (window.location.href = "mailto:info@bunkers.ar")}
+          >
+            info@bunkers.ar
+          </button>
         </div>
       </motion.div>
     </div>
