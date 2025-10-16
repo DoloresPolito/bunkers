@@ -1,12 +1,4 @@
-
-
-
-
-import localFont from "next/font/local";
 import "./globals.css";
-
-
-
 
 export const metadata = {
   title: "Bunkers",
@@ -32,12 +24,7 @@ export default function RootLayout({ children }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body
-    
-      >
-
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
